@@ -1,0 +1,182 @@
+/** BODY **/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff8000;
+}
+
+/** GENERAL **/
+.break {
+    clear: both;
+}
+
+/** NAV **/
+.topNav {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.topNav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.topNavRight {
+    float: right;
+}
+
+.topNav a:hover {
+    background-color: #C52233;
+    color: #000000;
+}
+
+.topNav a.active {
+    background-color: #C52233;
+    color: #ffffff;
+}
+
+/**HEADER**/
+.mainImage .mainImageHolder {
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.mainImage .mainImageHolder img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+.mainImage .mainImageHolder h1 {
+    text-align: center;
+    color: #ffffff;
+    /** Title over image **/
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+/**FOOTER BUTTON**/
+.footerButton button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C52233;
+    background: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footerButton button:hover {
+    color: #ffffff;
+    background: #C52233;
+    cursor: pointer;
+}
+
+/**SECTION ONE**/
+.sectionImageOne {
+    clear: both;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sectionImageOne .sectionImageOneLeft {
+    float: left;
+    width: 60%;
+    margin: 0;
+}
+
+.sectionImageOne .sectionImageOneLeft img {
+    width: 80%;
+    padding: 16px;
+    float: right;
+}
+
+.sectionImageOne .sectionImageOneRight {
+    float: right;
+    width: 40%;
+    margin: 0;
+}
+
+.sectionImageOne .sectionImageOneRight p {
+    width: 100%;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/**SECTION TWO**/
+.sectionImageTwo {
+    clear: both;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sectionImageTwo .sectionImageTwoLeft {
+    float: left;
+    width: 40%;
+    margin: 0;
+}
+
+.sectionImageTwo .sectionImageTwoLeft p {
+    width: 100%;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.sectionImageTwo .sectionImageTwoRight {
+    float: right;
+    width: 60%;
+    margin: 0;
+}
+
+.sectionImageTwo .sectionImageTwoRight img {
+    width: 80%;
+    padding: 16px;
+}
+
+/**FOOTER**/
+footer {
+    clear: both;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.bottomNav {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.bottomNav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.bottomNav a:hover {
+    background-color: #ddd;
+    color: #000000;
+}
+
+.bottomNav a.active {
+    background-color: #C52233;
+    color: #ffffff;
+}
